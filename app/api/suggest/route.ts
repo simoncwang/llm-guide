@@ -49,7 +49,7 @@ export async function POST(req: NextRequest) {
     const jsonStart = content.indexOf('{')
     const json = JSON.parse(content.slice(jsonStart))
     return NextResponse.json(json)
-  } catch (err) {
+  } catch {
     return NextResponse.json({ error: 'Could not parse OpenAI model output' }, { status: 500 })
   }
 }
