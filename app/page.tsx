@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <main>
       <h1>🧠 LLM Use Case Guide</h1>
+      <p style={{fontStyle: 'italic' }}>Simon Wang | <a style={{textDecoration: 'none' }} href="https://simoncwang.github.io/" target="_blank">🌐 Checkout my Website!</a></p>
       <p>
         Want to use AI for a task but not sure where to start? This quick guide helps you <b>choose the simplest approach</b> for your needs. It&apos;s best practice to start with the easiest method that works, then explore more advanced options if needed to avoid wasted effort!
       </p>
