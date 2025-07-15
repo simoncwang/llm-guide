@@ -23,7 +23,7 @@ export default function CustomInput() {
   return (
     <section style={{ marginTop: '40px', padding: '20px', border: '2px dashed #ccc', borderRadius: '8px' }}>
       <h2>💬 Describe Your Use Case</h2>
-      <p style={{fontStyle: 'italic' }}>This feature relies on using an LLM (gpt-4.1-nano) to give recommendations based on a crafted system prompt, but it is NOT perfect! It is still a good starting point, and the better and more in detail you can describe your use case the better the suggestion will be!</p>
+      <p style={{fontStyle: 'italic' }}>This feature relies on using an LLM (gpt-4.1-nano) to give recommendations based on a crafted system prompt, but it is NOT perfect! It is still a good starting point, and the better and more in detail you can describe your use case the better the suggestion will be! NOTE: this feature uses my own API Key so please don't overuse it!</p>
       <textarea
         rows={4}
         value={input}
